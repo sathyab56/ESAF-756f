@@ -1,9 +1,6 @@
 import React, { useState } from "react";
-const Seal30 = ({ branchName }) => {
-  useEffect(() => {
-    import('../Seal30/styles.css');
-  }, []);
 
+const StampDesign = () => {
   const [name, setName] = useState("");
 
   return (
@@ -19,9 +16,8 @@ const Seal30 = ({ branchName }) => {
       <p className="text seal30designation">Manager</p>
       <p className="text seal30emp-no">Emp. No. 12859</p>
       <p className="text seal30branch">Anakkatty Branch</p>
-      <p className="seal30size-label">Rubber Stamp</p>
     </div>
   );
 };
 
-export default Seal30;
+export default StampDesign;

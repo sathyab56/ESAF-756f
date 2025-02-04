@@ -1,10 +1,7 @@
-import React from 'react';
-import { useEffect } from 'react';
+import React from "react";
+import "./index.css"; // Ensure you import the updated CSS file
 
-const Seal24 = ({ branchName }) => {
-  useEffect(() => {
-    import('../Seal24/styles.css');
-  }, []);
+const StampDesign = () => {
   return (
     <div className="seal24box">
       <div className="seal24stamp">
@@ -15,13 +12,9 @@ const Seal24 = ({ branchName }) => {
         <div className="seal24pay">PAY</div>
         <div className="seal24officer">Prescribed Officer</div>
       </div>
-      <div className="price-info">
-        Rubber Stamp
-        <br />
-        (Polimer Stamp)
-      </div>
+      
     </div>
   );
 };
 
-export default Seal24;
+export default StampDesign;
