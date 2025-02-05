@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const StampDesign = () => {
+const Seal30 = () => {
   const [name, setName] = useState("");
 
   return (
@@ -22,4 +22,4 @@ const StampDesign = () => {
   );
 };
 
-export default StampDesign;
+export default Seal30;

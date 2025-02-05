@@ -1,7 +1,9 @@
-import React from "react";
-import "./styles.css"; // Ensure the correct CSS file is imported
+import React, { useEffect } from 'react';
 
-const StampDesign = () => {
+const Seal27 = ({ branchName }) => {
+  useEffect(() => {
+    import('../Seal27/styles.css');
+  }, []);
   return (
     <div className="seal27box">
       <div className="seal27stamp">
@@ -16,4 +18,4 @@ const StampDesign = () => {
   );
 };
 
-export default StampDesign;
+export default Seal27;

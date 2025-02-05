@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const StampDesign = () => {
+const Seal29 = () => {
   const [role, setRole] = useState("");
 
   return (
@@ -21,4 +21,4 @@ const StampDesign = () => {
   );
 };
 
-export default StampDesign;
+export default Seal29;
