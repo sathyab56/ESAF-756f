@@ -11,7 +11,7 @@ function Seal28() {
   }, []);
 
   return (
-    
+    <div className="seal-container">
       <div className="seal28stamp">
         <span
           className="seal28name"
@@ -28,11 +28,11 @@ function Seal28() {
             selection.addRange(range);
           }}
         >
-          Enter Name
+          
         </span>
         <div className="seal28emp-id">Emp. Id. 12859</div>
       </div>
-    
+    </div>
   );
 }
 
