@@ -31,17 +31,21 @@
 
 
 
-.seal27reject {
-    font-size: 13pt;
+
+.seal27pay {
+    font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 
-.seal27officer {
+.seal27officer{
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding: 0px;
+    margin: 1.5px;
+    line-height: 1;
 }
 
 .seal27box {

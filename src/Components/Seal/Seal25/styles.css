@@ -31,14 +31,17 @@
 .seal25pay {
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 1px;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 
-.seal25officer {
+.seal25officer{
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    padding: 0px;
+    margin: 1.5px;
+    line-height: 1;
 }
 
 .seal25box {
