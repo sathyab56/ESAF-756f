@@ -144,9 +144,9 @@ const PageContextProvider = (props) => {
         { name: "PAY HALF VALUE", price: 70, img: 24 },
         { name: "PAY HALF VALUE", price: 70, img: 25 },
         { name: "REJECT", price: 70, img: 26 },
-        { name: "MANAGER", price: 70, img: 27 },
-        { name: "MANAGER", price: 70, img: 28 },
-        { name: "MANAGER", price: 70, img: 29 }
+        { name: "EMP.ID", price: 70, img: 27 },
+        { name: "BRANCH CODE", price: 70, img: 28 },
+        { name: "EMP.NO", price: 70, img: 29 }
 
 
     ]
