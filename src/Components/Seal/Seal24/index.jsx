@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // Ensure you import the updated CSS file
+import "./styles.css"; // Ensure you import the updated CSS file
 
 const StampDesign = () => {
   return (
