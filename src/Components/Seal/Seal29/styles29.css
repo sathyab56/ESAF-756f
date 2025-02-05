@@ -1,0 +1,49 @@
+.seal29stamp {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  height: 11mm;
+  min-width: 35mm;
+  background: transparent;
+  border: 1px solid lightgray ;
+}
+
+.seal29role {
+  border: none;
+  outline: none;
+  background: transparent;
+  display: inline-block;
+  color: black;
+  font-weight: 700;
+  font-size: 12pt;
+  text-align: center;
+  white-space: nowrap;
+  min-width: 80px;
+}
+
+/* Placeholder text */
+.seal29role:empty:before {
+  content: "Enter name";
+  color: gray;
+  pointer-events: none;
+}
+
+/* Remove focus outline */
+.seal29role:focus {
+  outline: none;
+}
+
+.seal29bank-name {
+  font-size: 9.5pt;
+  text-align: center;
+
+}
+
+.seal29branch {
+  font-size: 9.5pt;
+  
+}
+

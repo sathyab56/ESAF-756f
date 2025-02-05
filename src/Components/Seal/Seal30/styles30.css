@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+  line-height:16px;
+}
+
+.seal30stamp-container {
+  width: auto;
+  height: 17mm;
+  border: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: white;
+  min-width: 44mm;
+  padding: 1px;
+  margin-top:2px;
+}
+
+/* Editable name field */
+.text-seal30dynamic-name {
+  border: none;
+  outline: none;
+  background: transparent;
+  display: inline-block;
+  color: black;
+  font-weight: 700;
+  font-size: 12pt;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Placeholder text */
+.text-seal30dynamic-name:empty:before {
+  content: "Enter name";
+  color: gray;
+  pointer-events: none;
+}
+
+/* Remove focus outline */
+.text-seal30dynamic-name:focus {
+  outline: none;
+}
+
+/* Text formatting */
+.text-seal30designation,
+.text-seal30emp-no,
+.text-seal30branch {
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  font-weight: bold;
+  text-align: center;
+}
