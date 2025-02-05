@@ -1,15 +1,5 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #f4f4f4;
-  line-height:16px;
-}
-
 .seal30stamp-container {
-  width: auto;
+  width: fit-content;
   height: 17mm;
   border: 1px solid lightgrey;
   display: flex;
@@ -21,6 +11,13 @@ body {
   min-width: 44mm;
   padding: 1px;
   margin-top:2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  background-color: #f4f4f4;
+  line-height:16px;
 }
 
 /* Editable name field */
