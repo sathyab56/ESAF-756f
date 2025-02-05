@@ -4,7 +4,7 @@ const StampDesign = () => {
   const [role, setRole] = useState("");
 
   return (
-    <div>
+    <div className="container">
       <div className="seal29stamp">
         <span
           className="seal29role"
