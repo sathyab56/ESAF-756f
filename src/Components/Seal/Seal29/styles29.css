@@ -8,10 +8,11 @@
   height: 11mm;
   min-width: 35mm;
   background: transparent;
- 
+  border: 1px solid lightgray;
 }
 
-.seal29role {
+.seal29role,
+.seal29branch-number {
   border: none;
   outline: none;
   background: transparent;
@@ -24,27 +25,32 @@
   min-width: 80px;
 }
 
-/* Placeholder text */
+/* Placeholder for Role */
 .seal29role:empty:before {
   content: "Enter name";
   color: gray;
   pointer-events: none;
 }
 
+/* Placeholder for Branch Number */
+.seal29branch-number:empty:before {
+  content: "Enter number";
+  color: gray;
+  pointer-events: none;
+}
+
 /* Remove focus outline */
-.seal29role:focus {
+.seal29role:focus,
+.seal29branch-number:focus {
   outline: none;
 }
 
 .seal29bank-name {
   font-size: 9.5pt;
   text-align: center;
-  font-weight: bold;
-
 }
 
 .seal29branch {
   font-size: 9.5pt;
-  font-weight: bold;
+  text-align: center;
 }
-

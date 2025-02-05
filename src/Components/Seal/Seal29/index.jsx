@@ -3,6 +3,7 @@ import "../Seal29/styles29.css";
 
 function Seal29() {
   const roleRef = useRef(null);
+  const branchRef = useRef(null);
 
   return (
     <div className="seal-container">
@@ -12,10 +13,17 @@ function Seal29() {
           contentEditable
           suppressContentEditableWarning
           ref={roleRef}
-        >
-        </span>
+        ></span>
         <div className="seal29bank-name">Esaf Bank Anakkatty</div>
-        <div className="seal29branch">Branch: 92880 92671</div>
+        <div className="seal29branch">
+          Branch:{" "}
+          <span
+            className="seal29branch-number"
+            contentEditable
+            suppressContentEditableWarning
+            ref={branchRef}
+          ></span>
+        </div>
       </div>
     </div>
   );

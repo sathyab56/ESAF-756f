@@ -31,34 +31,23 @@
 .seal24pay {
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 12px;
 }
-.seal24officer {
+
+.seal24officer{
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
+    padding: 0px;
+    margin: 1.5px;
+    line-height: 1;
 }
 
-.seal24box{
+.seal24box {
     width: 40mm;
-    text-align: center;
-}
-
-
-.seal-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: 1px solid lightgray;
-    padding: 5px;
-    width: fit-content;
-    background: white;
-}
-.text {
-    margin: 2px 0;
-    text-align: center;
+    justify-content: space-between;
 }
